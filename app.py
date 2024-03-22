@@ -6,7 +6,7 @@ app = Flask(__name__)
 # 루트 URL에 대한 라우팅 및 뷰 함수를 정의합니다.
 @app.route('/')
 def hello_world():
-    return 'KNU'
+    return '애저체험'
 
 # 서버를 실행합니다.
 if __name__ == '__main__':
